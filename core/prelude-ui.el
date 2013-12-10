@@ -73,7 +73,11 @@
                                           "%b"))))
 
 ;; use zenburn as the default theme
-(load-theme 'zenburn t)
+;; (load-theme 'zenburn t)
+(load-theme 'solarized-light t)
+(setq solarized-distinct-fringe-background t)
+(setq solarized-high-contrast-mode-line t)
+
 
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here
